@@ -13,11 +13,12 @@ secret = null
 promptGames =
   type: 'checkbox'
   name: 'games'
+  message: 'Steam Hour Boost by rpgeS'
   message: 'Select the games to boost:'
   choices: [
     {value: 10, name: 'CS 1.6', checked: true}
+    {value: 240, name: 'CS:S', checked: true}
     {value: 730, name: 'CS:GO', checked: true}
-    {value: 570, name: 'DOTA2'}
   ]
 
 inquirer.prompt [

@@ -8,7 +8,7 @@ By default it will boost the games CS 1.6, CS:S and CS:GO. If you want to change
 First you need to install a recent version of `node.js`, `coffee-script` and `pm2`:
 
 ```bash
-apt-get install curl
+sudo apt-get install curl
 curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 sudo apt-get install -y nodejs
 sudo apt-get install -y build-essential
